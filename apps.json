@@ -48,12 +48,21 @@
     "news": [
         {
             "title": "Welcome!",
-            "identifier": "arichorn-news",
+            "identifier": "arichorn-news-2",
             "caption": "welcome to my Altstore Source! this Altstore Source is to get the ability to download the apps I release here.",
             "tintColor": "cb1633",
             "date": "2023-05-23",
             "appID": "com.google.ios.youtube",
             "notify": true
+        },
+        {
+            "title": "Breaking News!",
+            "identifier": "foxster-news-1",
+            "caption": "The quick brown fox jumped over the lazy dog! 🎉",
+            "tintColor": "D85240",
+            "url": "https://youtu.be/dQw4w9WgXcQ",
+            "date": "2023-05-09",
+            "notify": false
         }
     ]
 }
