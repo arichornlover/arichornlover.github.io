@@ -9,7 +9,7 @@
         {
             "id": "uyouplusextra",
             "name": "uYouPlusExtra",
-            "bundleIdentifier": "com.google.ios.uyouplusextra",
+            "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Various Developers",
             "subtitle": "The best tweak for the YouTube app just got even better",
             "version": "18.20.3",
@@ -32,7 +32,7 @@
         {
             "id": "youtubereborn",
             "name": "YouTube Reborn",
-            "bundleIdentifier": "com.google.ios.youtubereborn",
+            "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "LillieH1000, zachary7829 & arichorn",
             "subtitle": "The best tweak for the YouTube app",
             "version": "18.14.1",
