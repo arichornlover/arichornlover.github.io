@@ -47,6 +47,25 @@
                 "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
             ]
+        },
+        {
+            "id": "tiktokplus",
+            "name": "TikTok Plus",
+            "bundleIdentifier": "com.zhiliaoapp.musically",
+            "developerName": "arichorn",
+            "subtitle": "an okay tweak that blocks ads for the TikTok app",
+            "version": "18.14.1",
+            "size": 112631289,
+            "versionDate": "2023-05-22",
+            "versionDescription": "TikTok Plus : changelog can be found in https://github.com/arichorn/TikTokPlus/releases/latest",
+            "downloadURL": "https://github.com/arichorn/TikTokPlus/releases/latest",
+            "localizedDescription": "TikTokPlus is the best tweak when it comes to Ad-blocking for the TikTok app.",
+            "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
+            "tintColor": "e81e3c",
+            "screenshotURLs": [
+                "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
+            ]
           }
         ]
       }
