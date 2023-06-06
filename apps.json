@@ -12,10 +12,10 @@
             "bundleIdentifier": "com.google.ios.uyouplusextra",
             "developerName": "Various Developers",
             "subtitle": "The best tweak for the YouTube app just got even better",
-            "version": "18.21.3",
+            "version": "18.14.1",
             "size": 121693569,
             "versionDate": "2023-06-02",
-            "versionDescription": "• Updated YouTube to 18.21.3\n• Fix streched artwork in uYou's player view\n• Fix crash on startup after closing with uYou download in progress\n• Update DontEatMyContent (v1.0.6 -> v1.0.10)\n\nFull changelog: \nhttps://github.com/qnblackcat/uYouPlus/releases/tag/v18.14.1-3.0",
+            "versionDescription": "• Updated YouTube to 18.14.1\n• Fix streched artwork in uYou's player view\n• Fix crash on startup after closing with uYou download in progress\n• Update DontEatMyContent (v1.0.6 -> v1.0.10)\n\nFull changelog: \nhttps://github.com/qnblackcat/uYouPlus/releases/tag/v18.14.1-3.0",
             "downloadURL": "https://github.com/arichorn/uYouPlusExtra/releases/download/v18.21.3-3.0/uYouPlusExtra_18.21.3_3.0.ipa",
             "localizedDescription": "uYou is the best tweak for the YouTube app.\n\nuYouPlus is a modified version of uYou with even more features.\n\nAdditional features:\n• Skip sponsorships in videos (iSponsorBlock)\n• Even more PiP options (YouPiP)\n• Unlock 1440p and 2160p resolutions (YTUHD)\n• Disable overlay at the end of videos (YTNoHoverCards)\n• Remove YouTube Premium upsell alerts (NoYTPremium)\n• Enable the miniplayer for all videos (YTMiniplayerEnabler)\n• Prevent the notch/Dynamic Island from cutting into 2:1 videos (DontEatMyContent)\n• Configure A/B settings in the YouTube app (YTABConfig)\n• And more\n\nMore information: \nhttps://github.com/qnblackcat/uYouPlus/ \n\nRequires iOS 14.0 or later.\n\nContributors: MiRO92, qnblackcat, PoomSmart, level3tjg, BandarHelal, galactic, julioverne, HASHBANG, Lyvendia, Foxster, ichitaso, Ahmed Bafkir, CokePokes, Tommy Teo, theos, and many others.",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/assets/icons/uYou.png",
@@ -42,25 +42,6 @@
             "downloadURL": "https://github.com/arichorn/YouTube-Reborn-Updated/releases/download/v14.0.13/YouTube.Reborn.4.0.13.ipa",
             "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.0.13 ",
             "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
-            "tintColor": "e81e3c",
-            "screenshotURLs": [
-                "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
-            ]
-        },
-        {
-            "id": "tiktokplus",
-            "name": "TikTok Plus",
-            "bundleIdentifier": "com.zhiliaoapp.musically",
-            "developerName": "arichorn",
-            "subtitle": "an okay tweak that blocks ads for the TikTok app",
-            "version": "18.14.1",
-            "size": 112631289,
-            "versionDate": "2023-05-22",
-            "versionDescription": "TikTok Plus : changelog can be found in https://github.com/arichorn/TikTokPlus/releases/latest",
-            "downloadURL": "https://github.com/arichorn/TikTokPlus/releases/latest",
-            "localizedDescription": "TikTokPlus is the best tweak when it comes to Ad-blocking for the TikTok app.",
-            "iconURL": "https://raw.githubusercontent.com/arichorn/arichorn.github.io/main/assets/230x0w.png",
             "tintColor": "e81e3c",
             "screenshotURLs": [
                 "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
