@@ -41,7 +41,7 @@
             "versionDescription": "YouTube Reborn v4.1.0 tweak for Altstore Users : changelog can be found in https://github.com/arichorn/YouTube-Reborn-Updated/releases/latest",
             "downloadURL": "https://github.com/arichorn/YouTube-Reborn-Updated/releases/download/v4.1.0/YouTube.Reborn.4.1.0.ipa",
             "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.0 ",
-            "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonwhite.png",
+            "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
             "tintColor": "000000",
             "screenshotURLs": [
                 "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
@@ -51,7 +51,7 @@
         {
             "id": "youtuberebornplus",
             "name": "YouTubeRebornPlus",
-            "bundleIdentifier": "com.google.ios.youtuberebornplus",
+            "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "arichorn",
             "subtitle": "The best tweak for the YouTube app",
             "version": "18.22.9",
