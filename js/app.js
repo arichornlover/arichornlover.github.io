@@ -91,7 +91,7 @@ function main(json) {
     preview.querySelector("#subtitle").textContent = app.subtitle;
     // Screenshots
     app.screenshotURLs.forEach(url => {
-        preview.querySelector("#screenshots").insertAdjacentHTML("beforeend", `<img src="${url}" alt="">`);
+        preview.querySelector("#screenshots").insertAdjacentHTML("beforeend", `<img src="${url}" alt="" class="screenshot">`);
     });
     // Description
     const previewDescription = preview.querySelector("#description");
@@ -213,9 +213,8 @@ function main(json) {
             default:
                 permissionType = permission.type.replaceAll("-", " ");
                 icon = "gear-wide-connected";
-                    break;
+                break;
             }
-    
             permissions.insertAdjacentHTML("beforeend", `
             <div class="permission">
                 <i class="bi-${icon}" style="color: ${tintColor};"></i>
@@ -227,13 +226,15 @@ function main(json) {
         });
     }
 
+    //
+    // Source info
     const source = document.getElementById("source");
     const sourceContainer = source.querySelector(".container");
     const sourceTitle = source.querySelector(".row-title");
     const sourceSubtitle = source.querySelector(".row-subtitle");
     sourceTitle.innerText = json.name;
     sourceContainer.href = `index.html?source=${sourceURL}`;
-    sourceSubtitle.innerText = json.description ?? "A cool AltStore source.";
+    sourceSubtitle.innerText = json.description ?? "Tap to get started";
 }
 
 function exit() {
