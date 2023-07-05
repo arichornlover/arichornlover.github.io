@@ -10,14 +10,14 @@
     "subtitle": "The best tweak for the YouTube app.",
     "versions": [
       {
-        "version": "18.22.9",
-        "date": "2023-06-09",
-        "localizedDescription": "Bug fixes.",
-        "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.22.9-4.1.0/YouTubeRebornPlus_18.22.9_4.1.0.ipa",
+        "version": "18.25.1",
+        "date": "2023-07-02",
+        "localizedDescription": "Added Version Spoofer, fixed 2 broken options (Share & Add To Buttons), Bug fixes.",
+        "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
         "size": 112631289
       }
     ],
-    "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.0 ",
+    "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.1",
     "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
     "tintColor": "000000",
     "permissions": [
