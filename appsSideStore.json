@@ -1,0 +1,35 @@
+{
+  "name": "arichorn's SideStore Source",
+  "identifier": "me.arichorn.sidestore",
+  "sourceURL": "https://arichorn.github.io/index.html?source=https://raw.githubusercontent.com/arichorn/arichorn.github.io/main/apps.json",
+"apps": [
+  {
+    "name": "YouTubeRebornPlus",
+    "bundleIdentifier": "com.google.ios.youtube",
+    "developerName": "arichorn",
+    "subtitle": "The best tweak for the YouTube app.",
+    "versions": [
+      {
+        "version": "18.25.1",
+        "date": "2023-07-02",
+        "localizedDescription": "Added Version Spoofer, fixed 2 broken options (Share & Add To Buttons), Bug fixes.",
+        "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
+        "size": 112631289
+      }
+    ],
+    "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.1",
+    "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
+    "tintColor": "000000",
+    "permissions": [
+      {
+        "type": "photos",
+        "usageDescription": "Allows you to use your photo library to set your profile image."
+      }
+    ],
+    "screenshotURLs": [
+      ""
+    ],
+    "beta": false
+   }
+ ]
+}
