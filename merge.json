@@ -43,7 +43,7 @@
     },
     {
       "beta": false,
-      "bundleIdentifier": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtubethishastobeunique",
       "developerName": "arichorn",
       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
       "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
