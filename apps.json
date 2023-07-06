@@ -31,9 +31,6 @@
       "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
       "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.1",
       "name": "YouTube Reborn",
-      "screenshotURLs": [
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true"
-      ],
       "size": 112631289,
       "subtitle": "The Best Customization Tweak for the YouTube app",
       "tintColor": "000000",
@@ -49,15 +46,11 @@
       "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
       "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.1",
       "name": "YouTubeRebornPlus",
-      "screenshotURLs": [
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true"
-      ],
       "size": 112631289,
       "subtitle": "The best tweak for the YouTube app.",
       "tintColor": "000000",
       "version": "18.25.1",
-      "versionDate": "2023-07-02",
-      "versionDescription": "This should be changed"
+      "versionDate": "2023-07-02"
     }
   ],
   "identifier": "com.arichorn.source",
