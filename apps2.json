@@ -15,31 +15,31 @@
          "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus4.jpeg?raw=true",
          "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
          "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
-      ],
-      "size": 112631289,
-      "subtitle": "The Best Customization Tweak for the YouTube app",
-      "tintColor": "000000",
-      "version": "18.25.1",
-      "versionDate": "2023-07-02",
-      "versionDescription": "YouTube Reborn v4.1.1 tweak for Altstore Users : changelog can be found in https://github.com/arichorn/YouTube-Reborn-Updated/releases/latest"
-    },
-    {
-      "beta": false,
-      "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "arichorn",
-      "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
-      "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
-      "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.",
-      "name": "YouTubeRebornPlus",
-      "size": 112631289,
-      "subtitle": "Supercharged with 15+ tweaks for the YouTube app.",
-      "tintColor": "e81e3c",
-      "version": "18.25.1",
-      "versionDate": "2023-07-02"
-    }
-  ],
-  "identifier": "com.arichorn2.source",
-  "name": "arichorn's Source 2",
-  "news": [],
-  "userInfo": {}
-}
+       ],
+       "size": 112631289,
+       "subtitle": "The Best Customization Tweak for the YouTube app",
+       "tintColor": "000000",
+       "version": "18.25.1",
+       "versionDate": "2023-07-02",
+       "versionDescription": "YouTube Reborn v4.1.1 tweak for Altstore Users : changelog can be found in https://github.com/arichorn/YouTube-Reborn-Updated/releases/latest"
+     },
+     {
+       "beta": false,
+       "bundleIdentifier": "com.google.ios.youtube",
+       "developerName": "arichorn",
+       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
+       "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
+       "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.",
+       "name": "YouTubeRebornPlus",
+       "size": 112631289,
+       "subtitle": "Supercharged with 15+ tweaks for the YouTube app.",
+       "tintColor": "e81e3c",
+       "version": "18.25.1",
+       "versionDate": "2023-07-02"
+     }
+   ],
+   "identifier": "com.arichorn2.source",
+   "name": "arichorn's Source 2",
+   "news": [],
+   "userInfo": {}
+  }
