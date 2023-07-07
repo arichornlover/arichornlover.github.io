@@ -1,40 +1,37 @@
 {
-    "name": "arichorn's AltStore Source 2",
-    "identifier": "me.arichorn2.altstore",
-    "subtitle": "arichorn's AltStore Repo.",
-    "description": "AltStore source that has tweaks that were forked/modifed.",
-    "iconURL": "https://avatars.githubusercontent.com/u/78001398",
-    "tintColor": "a1200e",
-    "apps": [
-        {
-            "id": "youtubereborn",
-            "name": "YouTube Reborn",
-            "bundleIdentifier": "com.google.ios.youtubereborn",
-            "developerName": "LillieH1000 & zachary7829",
-            "subtitle": "The Best Customization Tweak for the YouTube app",
-            "version": "18.25.1",
-            "size": 112631289,
-            "versionDate": "2023-07-02",
-            "versionDescription": "YouTube Reborn v4.1.1 tweak for Altstore Users : changelog can be found in https://github.com/arichorn/YouTube-Reborn-Updated/releases/latest",
-            "downloadURL": "https://github.com/arichorn/YouTube-Reborn-Updated/releases/download/v4.1.1/YouTube.Reborn.4.1.1.ipa",
-            "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.1 ",
-            "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
-            "tintColor": "000000",
+  "apps": [
+    {
+      "beta": false,
+      "bundleIdentifier": "com.google.ios.youtubethishastobeunique",
+      "developerName": "LillieH1000 & zachary7829",
+      "downloadURL": "https://github.com/arichorn/YouTube-Reborn-Updated/releases/download/v4.1.1/YouTube.Reborn.4.1.1.ipa",
+      "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
+      "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n\nThis version of YouTube Reborn is v4.1.1",
+      "name": "YouTube Reborn",
+      "size": 112631289,
+      "subtitle": "The Best Customization Tweak for the YouTube app",
+      "tintColor": "000000",
+      "version": "18.25.1",
+      "versionDate": "2023-07-02",
+      "versionDescription": "YouTube Reborn v4.1.1 tweak for Altstore Users : changelog can be found in https://github.com/arichorn/YouTube-Reborn-Updated/releases/latest"
         },
         {
-            "id": "youtuberebornplus",
-            "name": "YouTubeRebornPlus",
-            "bundleIdentifier": "com.google.ios.youtube",
-            "developerName": "arichorn",
-            "subtitle": "The best tweak for the YouTube app",
-            "version": "18.25.1",
-            "size": 112631289,
-            "versionDate": "2023-07-02",
-            "versionDescription": "YouTube Reborn Plus v18.25.1-4.1.1 tweak for Altstore Users : changelog can be found in https://github.com/arichorn/YouTubeRebornPlus/releases/latest",
-            "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
-            "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.",
-            "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
-            "tintColor": "e81e3c",
-          }
-        ]
-      }
+      "beta": false,
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "arichorn",
+      "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
+      "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
+      "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.",
+      "name": "YouTubeRebornPlus",
+      "size": 112631289,
+      "subtitle": "Supercharged with 15+ tweaks for the YouTube app.",
+      "tintColor": "e81e3c",
+      "version": "18.25.1",
+      "versionDate": "2023-07-02"
+    }
+  ],
+  "identifier": "com.arichorn.source",
+  "name": "arichorn's Source",
+  "news": [],
+  "userInfo": {}
+}
