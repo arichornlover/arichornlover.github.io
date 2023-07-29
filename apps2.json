@@ -2,7 +2,7 @@
    "apps": [
      {
        "beta": false,
-       "bundleIdentifier": "com.google.ios.youtubethishastobeunique",
+       "bundleIdentifier": "com.google.ios.youtube",
        "developerName": "LillieH1000 & zachary7829",
        "downloadURL": "https://github.com/arichorn/YouTube-Reborn-Updated/releases/download/v4.2.0/YouTube.Reborn.4.2.0.ipa",
        "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
@@ -25,9 +25,9 @@
      },
      {
        "beta": false,
-       "bundleIdentifier": "com.google.ios.youtube",
+       "bundleIdentifier": "com.google.ios.youtuberebornplus",
        "developerName": "arichorn",
-       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.25.1-4.1.1/YouTubeRebornPlus_18.25.1_4.1.1.ipa",
+       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.29.1-4.2.0-AltSource/YouTubeRebornPlus_18.29.1_4.2.0.ipa",
        "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
        "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.",
        "name": "YouTubeRebornPlus",
