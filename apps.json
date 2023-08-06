@@ -4,7 +4,7 @@
       "beta": false,
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Various Developers",
-      "META": { "repoName": "arichorn's Source" },
+      "META": { "repoName": "uYouPlusExtra Source" },
       "contact": {
           "web": "https://github.com/arichorn/uYouPlusExtra"
       },
@@ -20,7 +20,7 @@
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
       ],
-      "size": 111693569,
+      "size": 113129845,
       "appPermissions": {
         "entitlements": [
             {
@@ -96,11 +96,11 @@
       "tintColor": "e81e8a",
       "version": "18.30.6",
       "versionDate": "2023-07-31",
-      "versionDescription": "• Updated YouTube to 18.29.1\n • Updated uYou to 3.0.1\n • Fix OLED Dark Mode\n •Full changelog: \n https://github.com/qnblackcat/uYouPlus/releases/tag/v18.14.1-3.0"
+      "versionDescription": "• Updated YouTube to 18.30.6\n • Updated uYou to 3.0.1\n • Fix OLED Dark Mode\n •Full changelog: \n https://github.com/qnblackcat/uYouPlus/releases/tag/v18.14.1-3.0"
     }
   ],
-  "identifier": "com.arichorn.source",
-  "name": "arichorn's Source",
+  "identifier": "com.uyouplusextra.source",
+  "name": "uYouPlusExtra Source",
   "sourceURL": "https://raw.githubusercontent.com/arichorn/arichorn.github.io/main/apps.json",
   "website": "https://github.com/arichorn/uYouPlusExtra",
   "news": [],
