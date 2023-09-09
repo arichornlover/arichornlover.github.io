@@ -6,8 +6,11 @@
 //  MIT License.
 //
 
-import { urlSearchParams, formatString, sourceURL } from "./utilities.js";
+import { urlSearchParams, sourceURL, legacyPermissions } from "./constants.js";
+import { formatString, insertSpaceInCamelString, insertSpaceInSnakeString, exit, formatVersionDate } from "./utilities.js";
 import { main } from "./main.js";
+import { privacy, entitlements } from "./constants.js";
+import { AppPermissionItem } from "./components/AppPermissionItem.js";
 
 if (!urlSearchParams.has('id')) exit();
 const bundleId = urlSearchParams.get('id');
@@ -126,19 +129,9 @@ main((json) => {
     const versionNumberElement = document.getElementById("version");
     const versionSizeElement = document.getElementById("version-size");
     const versionDescriptionElement = document.getElementById("version-description");
-    const versionDate = new Date(app.versionDate),
-        month = versionDate.toUTCString().split(" ")[2],
-        date = versionDate.getDate();
-    const today = new Date();
-    const msPerDay = 60 * 60 * 24 * 1000;
-    const msDifference = today.valueOf() - versionDate.valueOf();
 
     // Version date
-    versionDateElement.textContent = versionDate.valueOf() ? `${month} ${date}, ${versionDate.getFullYear()}` : app.versionDate.split("T")[0];
-    if (msDifference <= msPerDay && today.getDate() == versionDate.getDate())
-        versionDateElement.textContent = "Today";
-    else if (msDifference <= msPerDay * 2)
-        versionDateElement.textContent = "Yesterday";
+    versionDateElement.textContent = formatVersionDate(app.versionDate);
 
     // Version number
     versionNumberElement.textContent = `Version ${app.version}`;
@@ -150,103 +143,67 @@ main((json) => {
         i++;
         appSize = parseFloat(appSize / 1024).toFixed(1);
     }
-    versionSizeElement.textContent = `${appSize} ${units[i]}`;
+    // versionSizeElement.textContent = `${appSize} ${units[i]}`;
 
     // Version description
     versionDescriptionElement.innerHTML = formatString(app.versionDescription);
     if (versionDescriptionElement.scrollHeight > versionDescriptionElement.clientHeight)
         versionDescriptionElement.insertAdjacentHTML("beforeend", more);
 
+    // Version history
+    document.getElementById("version-history").href = `version-history.html?source=${sourceURL}&id=${app.bundleIdentifier}`;
+
     // 
     // Permissions
-    const permissions = document.getElementById("permissions");
 
-    // If permissions specified
-    if (app.permissions) {
-        // Remove placeholder permission
-        permissions.querySelector(".permission").remove();
+    // 
+    // Privacy
+    const privacyContainer = document.getElementById("privacy");
+    if (app.appPermissions?.privacy?.length || app.permissions) {
+        privacyContainer.querySelector(".permission-icon").classList = "permission-icon bi-person-fill-lock";
+        privacyContainer.querySelector("b").innerText = "Privacy";
+        privacyContainer.querySelector(".description").innerText = `"${app.name}" may request to access the following:`;
+    }
+    app.appPermissions?.privacy?.forEach(privacyPermission => {
+        const permission = privacy[privacyPermission.name];
+        let name = permission?.name ?? insertSpaceInCamelString(privacyPermission.name),
+            icon;
+        if (permission?.icon) icon = permission.icon;
+        else icon = "gear-wide-connected";
+        privacyContainer.querySelector(".permission-items").insertAdjacentHTML("beforeend", 
+            AppPermissionItem(name, icon, privacyPermission?.usageDescription)
+        );
+    });
 
-        app.permissions?.forEach(permission => {
-            var permissionType, icon;
-            switch (permission.type) {
-                // AltStore-supported permissions
-                case "background-audio":
-                    permissionType = "Background Audio";
-                    icon = "volume-up-fill";
-                    break;
-                case "background-fetch":
-                    permissionType = "Background Fetch";
-                    icon = "arrow-repeat"
-                    break;
-                case "photos":
-                    permissionType = "Photos"
-                    icon = "image-fill";
-                    break;
-                // Additional permissions
-                case "camera":
-                    permissionType = "Camera"
-                    icon = "camera-fill";
-                    break;
-                case "music":
-                    permissionType = "Music Library"
-                    icon = "music-note-list";
-                    break;
-                case "location":
-                    permissionType = "Location"
-                    icon = "geo-alt-fill";
-                    break;
-                case "microphone":
-                    permissionType = "Microphone"
-                    icon = "mic-fill";
-                    break;
-                case "contacts":
-                    permissionType = "Contacts"
-                    icon = "people-fill";
-                    break;
-                case "bluetooth":
-                    permissionType = "Bluetooth"
-                    icon = "bluetooth";
-                    break;
-                case "faceid":
-                    permissionType = "Face ID"
-                    icon = "person-bounding-box";
-                    break;
-                case "network":
-                    permissionType = "Network"
-                    icon = "wifi";
-                    break;
-                case "calendar":
-                case "calendars":
-                    permissionType = "Calendar"
-                    icon = "calendar-date";
-                    break;
-                case "reminders":
-                    permissionType = "Reminders"
-                    icon = "list-ul";
-                    break;
-                case "siri":
-                    permissionType = "Siri"
-                    icon = "gear-wide-connected";
-                    break;
-                case "speech-recognition":
-                    permissionType = "Speech Recognition"
-                    icon = "soundwave";
-                    break;
-                default:
-                    permissionType = permission.type.replaceAll("-", " ");
-                    icon = "gear-wide-connected";
-                    break;
-            }
-            permissions.insertAdjacentHTML("beforeend", `
-            <div class="permission">
-                <i class="bi-${icon}" style="color: ${tintColor};"></i>
-                <div class="text">
-                    <p class="title">${permissionType}</p>
-                    <p class="description">${permission.usageDescription ?? "No description provided."}</p>
-                </div>
-            </div>`);
+    //
+    // Legacy permissions
+    if (!app.appPermissions?.privacy) {
+        app.permissions?.forEach(appPermission => {
+            const permission = legacyPermissions[appPermission.type];
+            let name = insertSpaceInSnakeString(appPermission.type),
+                icon;
+            if (permission?.icon) icon = permission.icon;
+            else icon = "gear-wide-connected";
+            privacyContainer.querySelector(".permission-items").insertAdjacentHTML("beforeend", 
+                AppPermissionItem(name, icon, appPermission?.usageDescription)
+            );
         });
     }
+
+    //
+    // Entitlements
+    const entitlementsContainer = document.getElementById("entitlements");
+    if (!app.appPermissions?.entitlements?.length) entitlementsContainer.remove();
+    app.appPermissions?.entitlements.forEach(entitlementPermission => {
+        const permission = entitlements[entitlementPermission.name];
+        let name = permission?.name ?? insertSpaceInSnakeString(entitlementPermission.name),
+            icon;
+        if (permission?.icon) icon = permission.icon;
+        else icon = "gear-wide-connected";;
+        entitlementsContainer.querySelector(".permission-items").insertAdjacentHTML("beforeend", 
+            AppPermissionItem(name, icon, permission?.description)
+        );
+    });
 
     //
     // Source info
@@ -258,7 +215,3 @@ main((json) => {
     sourceContainer.href = `index.html?source=${sourceURL}`;
     sourceSubtitle.innerText = json.description ?? "Tap to get started";
 });
-
-function exit() {
-    window.location.replace(`index.html?source=${sourceURL}`);
-}

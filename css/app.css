@@ -88,29 +88,6 @@ a {
   word-wrap: break-word
 }
 
-#more button {
-  min-width: 0 !important;
-  margin-left: 2px !important;
-  padding: 0;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: none;
-  border-radius: 4px;
-  border: none;
-  background: unset;
-  color: var(--accent-color);
-  cursor: pointer;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-left: 36px;
-  background: linear-gradient(to right, transparent, var(--color-bg) 35%);
-}
-
-#more:hover {
-  opacity: 1;
-}
-
 /* What's new */
 
 #whats-new,
@@ -126,12 +103,8 @@ a {
   padding: 0;
 }
 
-#whats-new .header>p:first-of-type {
-  opacity: 0.5;
-}
-
 #whats-new .header>p {
-  opacity: 0.35;
+  opacity: 0.5;
 }
 
 #whats-new #version-date {
@@ -170,6 +143,63 @@ a {
 #permissions .permission .description {
   font-size: 0.9em;
   opacity: 0.5;
+}
+
+#permission-containers {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.permission-icon {
+  color: var(--app-tint-color) !important;
+  font-size: 2em;
+}
+
+.permission-container {
+  border-radius: 1.5em;
+  padding: 1.25em;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.permission-container-header {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.permission-container p.description {
+  opacity: 0.5;
+  line-height: 1.5em;
+}
+
+.permission-container p {
+  font-size: 0.9em;
+}
+
+.permission-container b {
+  font-size: 1.25em;
+}
+
+.permission-items {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: 49.25% 49.25%;
+  row-gap: 4px;
+}
+
+.permission-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  font-size: 0.85em;
+  color: black;
+}
+
+.permission-item i {
+  font-size: 1.5em !important;
 }
 
 /* Source */

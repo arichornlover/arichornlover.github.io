@@ -8,11 +8,37 @@
 
 import { AltStoreBanner } from "./components/AltStoreBanner.js";
 import { NavigationBar } from "./components/NavigationBar.js";
+import { urlRegex } from "./constants.js";
 
-export const urlSearchParams = new URLSearchParams(window.location.search);
-export const sourceURL = urlSearchParams.get('source')?.replaceAll("+", "%2B");
-// https://stackoverflow.com/a/8943487
-export const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+export function formatVersionDate(arg) {
+    const versionDate = new Date(arg),
+        month = versionDate.toUTCString().split(" ")[2],
+        date = versionDate.getDate();
+    const today = new Date();
+    const msPerDay = 60 * 60 * 24 * 1000;
+    const msDifference = today.valueOf() - versionDate.valueOf();
+
+    let dateString = versionDate.valueOf() ? `${month} ${date}, ${versionDate.getFullYear()}` : arg.split("T")[0];
+    if (msDifference <= msPerDay && today.getDate() == versionDate.getDate())
+        dateString = "Today";
+    else if (msDifference <= msPerDay * 2)
+        dateString = "Yesterday";
+    
+    return dateString;
+}
+
+export function exit() {
+    window.location.replace(`index.html?source=${sourceURL}`);
+}
+
+export function insertSpaceInSnakeString(string) {
+    return string.split(".").slice(-1)[0].split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+}
+
+export function insertSpaceInCamelString(string) {
+    // https://stackoverflow.com/a/38388188/19227228
+    return string.match(/[A-Z][a-z]+|[0-9]+/g).join(" ");
+}
 
 export function insertAltStoreBanner(sourceName) {
     document.getElementById("top")?.insertAdjacentHTML("afterbegin", AltStoreBanner(sourceName));
@@ -62,7 +88,7 @@ export function setTintColor(color) {
 }
 
 export function setUpBackButton() {
-    document.getElementById("back")?.addEventListener("click", () => history.back(1));
+    document.getElementById("back")?.addEventListener("click", () => history.back());
 }
 
 export function search() {
