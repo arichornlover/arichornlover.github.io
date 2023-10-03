@@ -8,7 +8,7 @@
       "contact": {
           "web": "https://github.com/arichorn/uYouPlusExtra"
       },
-      "downloadURL": "https://github.com/arichorn/uYouPlusExtra/releases/download/v18.38.2-3.0.1/uYouPlusExtra_18.38.2_3.0.1.ipa",
+      "downloadURL": "https://github.com/arichorn/uYouPlusExtra/releases/download/v18.39.1-3.0.1/uYouPlusExtra_18.39.1_3.0.1.ipa",
       "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/assets/icons/uYou.png",
       "localizedDescription": "uYou is the best tweak for the YouTube app.\n \n uYouPlus is a modified version of uYou with even more features.\n \n Additional features:\n • Skip sponsorships in videos (iSponsorBlock)\n • Even more PiP options (YouPiP)\n • Unlock 1440p and 2160p resolutions (YTUHD)\n • Disable overlay at the end of videos (YTNoHoverCards)\n • Remove YouTube Premium upsell alerts (NoYTPremium)\n • Enable to Dim the YouTube UI (LowContrastMode)\n • Enable the miniplayer for all videos (YTMiniplayerEnabler)\n • Prevent the notch/Dynamic Island from cutting into 2:1 videos (DontEatMyContent)\n • Configure A/B settings in the YouTube app (YTABConfig)\n • And more\n \n More information: \n https://github.com/qnblackcat/uYouPlus/ \n \n Requires iOS 14.0 or later.\n \n Contributors: MiRO92, qnblackcat, PoomSmart, level3tjg, BandarHelal, galactic, julioverne, HASHBANG, Lyvendia, Foxster, ichitaso, Ahmed Bafkir, CokePokes, Tommy Teo, theos, and many others.",
       "name": "uYouPlusExtra",
@@ -20,7 +20,7 @@
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
       ],
-      "size": 123242187,
+      "size": 123652386,
       "appPermissions": {
         "entitlements": [
             {
@@ -94,9 +94,9 @@
         },
       "subtitle": "The best tweak for the YouTube app just got even better",
       "tintColor": "e81e8a",
-      "version": "18.38.2",
-      "versionDate": "2023-09-24",
-      "versionDescription": "• Updated YouTube to 18.38.2\n • uYou is using 3.0.1\n • Updated LowContrastMode to v1.5.0\n •Full changelog: \n https://github.com/arichorn/uYouPlusExtra/releases/tag/v18.38.2-3.0.1"
+      "version": "18.39.1",
+      "versionDate": "2023-10-02",
+      "versionDescription": "• Updated YouTube to 18.39.1\n • uYou is using 3.0.1\n •Full changelog: \n https://github.com/arichorn/uYouPlusExtra/releases/tag/v18.39.1-3.0.1"
     }
   ],
   "identifier": "com.uyouplusextra.source",
