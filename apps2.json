@@ -23,7 +23,7 @@
        "version": "18.40.1",
        "versionDate": "2023-10-10",
        "appPermissions": {
-       "entitlements": [
+        "entitlements": [
             {
               "name": "com.apple.security.application-groups"
             },
