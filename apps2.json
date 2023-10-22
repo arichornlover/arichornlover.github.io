@@ -3,112 +3,27 @@
      {
        "beta": false,
        "bundleIdentifier": "com.google.ios.youtube",
-       "developerName": "LillieH1000 & zachary7829",
-       "downloadURL": "https://github.com/arichorn/YouTube-Reborn-Updated/releases/download/v4.2.2/YouTube.Reborn.4.2.2.ipa",
+       "developerName": "LillieH1000, zachary7829 & arichorn",
+       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.40.1-4.2.3/YouTubeRebornPlus_18.40.1_4.2.3.ipa",
        "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
-       "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.\n \n This version of YouTube Reborn is v4.2.2",
-       "name": "YouTube Reborn",
+       "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization and video downloading towards the YouTube app.",
+       "name": "YouTubeRebornPlus",
        "screenshotURLs": [
-         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true",
-         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus2.jpeg?raw=true",
-         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus3.jpeg?raw=true",
-         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus4.jpeg?raw=true",
-         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
-         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
+         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png?raw=true",
+         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/3.png?raw=true",
+         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/4.png?raw=true",
+         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/5.png?raw=true",
+         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/6.png?raw=true",
+         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/7.png?raw=true",
+         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/8.png?raw=true"
        ],
        "size": 112631289,
-       "subtitle": "The Best Customization Tweak for the YouTube app",
-       "tintColor": "000000",
-       "version": "18.40.1",
-       "versionDate": "2023-10-09",
-       "versionDescription": "YouTube Reborn v4.2.2 tweak for Altstore Users : changelog can be found in https://github.com/arichorn/YouTube-Reborn-Updated/releases/tag/v4.2.2",
-       "appPermissions": {
-        "entitlements": [
-            {
-              "name": "com.apple.security.application-groups"
-            },
-            {
-              "name": "com.apple.developer.associated-domains"
-            },
-            {
-              "name": "com.apple.developer.coremedia.allow-alternate-video-decoder-selection"
-            },
-            {
-              "name": "com.apple.developer.usernotifications.time-sensitive"
-            },
-            {
-              "name": "get-task-allow"
-            },
-            {
-              "name": "com.apple.developer.device-information.user-assigned-device-name"
-            },
-            {
-              "name": "com.apple.developer.group-session"
-            },
-            {
-              "name": "keychain-access-groups"
-            },
-            {
-              "name": "com.apple.developer.networking.multicast"
-            },
-            {
-              "name": "aps-environment"
-            },
-            {
-              "name": "com.apple.developer.networking.wifi-info"
-            }
-          ],
-          "privacy": [
-            {
-              "name": "AppleMusic",
-              "usageDescription": "This lets you add your own audio files to your videos."
-            },
-            {
-              "name": "BluetoothPeripheral",
-              "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
-            },
-            {
-              "name": "Camera",
-              "usageDescription": "This lets you create videos using the app."
-            },
-            {
-              "name": "Contacts",
-              "usageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with."
-            },
-            {
-              "name": "LocalNetwork",
-              "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
-            },
-            {
-              "name": "LocationWhenInUse",
-              "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
-            },
-            {
-              "name": "Microphone",
-              "usageDescription": "This lets you include audio with your videos and search using your voice."
-            },
-            {
-              "name": "PhotoLibrary",
-              "usageDescription": "This lets you upload media you've already created."
-            }
-          ]
-        }
-      },
-     {
-       "beta": false,
-       "bundleIdentifier": "com.google.ios.youtuberebornplus",
-       "developerName": "arichorn",
-       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.29.1-4.2.0-AltSource/YouTubeRebornPlus_18.29.1_4.2.0.ipa",
-       "iconURL": "https://raw.githubusercontent.com/arichorn/CercubePlusScarlet/patch-1/Youtube_logo-512.png",
-       "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization towards the YouTube app.",
-       "name": "YouTubeRebornPlus",
-       "size": 112631289,
        "subtitle": "Supercharged with a ton of tweaks for the YouTube app.",
-       "tintColor": "e81e3c",
-       "version": "18.29.1",
-       "versionDate": "2023-07-25",
+       "tintColor": "f1f1f1",
+       "version": "18.40.1",
+       "versionDate": "2023-10-10",
        "appPermissions": {
-        "entitlements": [
+       "entitlements": [
             {
               "name": "com.apple.security.application-groups"
             },
