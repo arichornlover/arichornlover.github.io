@@ -99,7 +99,7 @@
       "versionDescription": "• Updated YouTube to 18.49.3\n • uYou is using 3.0.1\n •Full changelog: \n https://github.com/arichorn/uYouEnhanced/releases/tag/v18.49.3-3.0.1"
     }
   ],
-  "identifier": "com.uyouenhanced.source",
+  "identifier": "com.uyouplusextra.source",
   "name": "uYouEnhanced Source",
   "sourceURL": "https://raw.githubusercontent.com/arichorn/arichorn.github.io/main/apps.json",
   "website": "https://github.com/arichorn/uYouEnhanced",
