@@ -12,40 +12,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./common/style.css">
+  <link rel="stylesheet" href="index.css">
+  <title>AltSource Viewer</title>
 </head>
-<body class="loading">
-  <div id="loading">
-    <img src="img/loading.gif" alt="loading">
-    <p>Loading</p>
+<body>
+  <div id="top">
+    <div id="nav-bar" class="hide-border">
+      <a href="https://github.com/therealFoxster/altsource-viewer" class="hidden">
+        Source Code
+      </a>
+      <div id="title" class="hidden">
+          <p>AltSource Viewer</p>
+      </div>
+      <a href="https://github.com/therealFoxster/altsource-viewer">
+        Source Code
+      </a>
+    </div>
   </div>
-  <!-- Add to AltStore banner -->
-  <div id="top"></div>
   <div id="main">
-    <p>AltSource Viewer</p>
-    <div class="header">
-      <h1 id="title">altsource-v2</h1>
-      <a href="search.html" style="font-size: 0.75em; font-weight: 750;">EDIT</a>
+    <h1 id="title">AltSource Viewer</h1>
+    <div class="textfield">
+      <input type="url" placeholder="Source URL">
+      <a id="go">Go</a>
     </div>
-    <div id="news" class="section">
+    <div id="suggestions" class="section">
       <div class="header">
-        <h2>News</h2>
-        <a href="search.html">View All</a>
+        <h2>Featured</h2>
       </div>
-      <div id="news-items"></div>
-    </div>
-    <div id="apps" class="section">
-      <div class="header">
-        <h2>Featured Apps</h2>
-        <a href="search.html">View All Apps</a>
-      </div>
-    </div>
-    <div id="about" class="section">
-      <div class="header">
-        <h2>About</h2>
-      </div>
+      <!-- <a href="https://github.com/therealFoxster/altsource-viewer" target="_blank">
+        <div class="suggestion" id="source-code">
+          <i class="bi bi-code-slash"></i>
+          Source Code
+        </div>
+      </a> -->
     </div>
   </div>
-  <script src="js/index.js" type="module"></script>
+  <script src="index.js" type="module"></script>
 </body>
 </html>
