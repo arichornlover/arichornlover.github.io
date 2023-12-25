@@ -1,0 +1,27 @@
+/* 
+    news.css
+    altsource-viewer (https://github.com/therealFoxster/altsource-viewer)
+
+    Copyright (c) 2023 Foxster.
+    MIT License.
+*/
+
+#main {
+  padding-top: 5.5rem;
+}
+
+#news {
+  padding: 0 1rem;
+}
+
+.news-item-wrapper {
+  margin-bottom: 2.5em;
+}
+
+.news-item-wrapper:last-of-type {
+  margin-bottom: 1em;
+}
+
+.news-item-wrapper .item {
+  margin-bottom: 1rem !important;
+}
