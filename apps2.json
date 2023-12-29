@@ -4,7 +4,7 @@
        "beta": false,
        "bundleIdentifier": "com.google.ios.youtube",
        "developerName": "LillieH1000, zachary7829 & arichorn",
-       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.45.2-4.2.3/YouTubeRebornPlus_18.45.2_4.2.3-1.ipa",
+       "downloadURL": "https://github.com/arichorn/YouTubeRebornPlus/releases/download/v18.49.3-4.2.3/YouTubeRebornPlus_18.49.3_4.2.3-2.ipa",
        "iconURL": "https://raw.githubusercontent.com/arichorn/YouTube-Reborn-Updated/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
        "localizedDescription": "YouTube Reborn is the best tweak when it comes to customization and video downloading towards the YouTube app.",
        "name": "YouTubeRebornPlus",
@@ -20,9 +20,9 @@
        "size": 112631289,
        "subtitle": "Supercharged with a ton of tweaks for the YouTube app.",
        "tintColor": "000000",
-       "version": "18.45.2",
-       "versionDate": "2023-12-20",
-       "versionDescription": "YouTubeRebornPlus has YouTube Reborn v5.0.0-BETA1 in the tweak. and works for Altstore Users : changelog can be found in https://github.com/arichorn/YouTubeRebornPlus/releases/tag/v18.45.2-4.2.3",
+       "version": "18.49.3",
+       "versionDate": "2023-12-29",
+       "versionDescription": "YouTubeRebornPlus has YouTube Reborn v4.2.3-2 in the tweak. and works for Altstore Users : changelog can be found in https://github.com/arichorn/YouTubeRebornPlus/releases/tag/v18.49.3-4.2.3",
        "appPermissions": {
         "entitlements": [
             {
