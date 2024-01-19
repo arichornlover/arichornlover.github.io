@@ -14,8 +14,8 @@ export const sourceURL = urlSearchParams.get('source')?.replaceAll("+", "%2B");
 export const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
 
 export const sources = [
-    "https://raw.githubusercontent.com/arichorn/arichorn.github.io/main/apps.json",
-    "https://raw.githubusercontent.com/arichorn/arichorn.github.io/main/apps2.json",
+    "https://raw.githubusercontent.com/arichornlover/arichornlover.github.io/main/apps.json",
+    "https://raw.githubusercontent.com/arichornlover/arichornlover.github.io/main/apps2.json",
     "https://therealfoxster.github.io/altsource/apps.json",
     "https://qnblackcat.github.io/AltStore/apps.json",
     "https://quarksources.github.io/dist/quantumsource.min.json",
