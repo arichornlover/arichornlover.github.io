@@ -8,7 +8,7 @@
       "contact": {
           "web": "https://github.com/arichornlover/uYouEnhanced"
       },
-      "downloadURL": "https://github.com/arichornlover/uYouEnhanced/releases/download/v19.06.2-3.0.2/uYouEnhanced_19.06.2_3.0.2.ipa",
+      "downloadURL": "https://github.com/arichornlover/uYouEnhanced/releases/download/v19.06.2-3.0.3/uYouEnhanced_19.06.2-3.0.3.ipa",
       "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/assets/icons/uYou.png",
       "localizedDescription": "uYou is the best tweak for the YouTube app.\n \n uYouEnhanced is a modified version of uYouPlus & uYou with even more features.\n \n Additional features:\n • Skip sponsorships in videos (iSponsorBlock)\n • Even more PiP options (YouPiP)\n • Unlock 1440p and 2160p resolutions (YTUHD)\n • Disable overlay at the end of videos (YTNoHoverCards)\n • Remove YouTube Premium upsell alerts (NoYTPremium)\n • Enable to Dim the YouTube UI (LowContrastMode)\n • Enable the miniplayer for all videos (YTMiniplayerEnabler)\n • Prevent the notch/Dynamic Island from cutting into 2:1 videos (DontEatMyContent)\n • Configure A/B settings in the YouTube app (YTABConfig)\n • And more\n \n More information: \n https://github.com/qnblackcat/uYouPlus/ \n \n Requires iOS 14.0 or later.\n \n Contributors: MiRO92, qnblackcat, PoomSmart, level3tjg, BandarHelal, galactic, julioverne, HASHBANG, Lyvendia, Foxster, ichitaso, Ahmed Bafkir, CokePokes, Tommy Teo, theos, and many others.",
       "name": "uYouEnhanced",
@@ -95,8 +95,8 @@
       "subtitle": "The best tweak for the YouTube app just got even better",
       "tintColor": "e81e8a",
       "version": "19.06.2",
-      "versionDate": "2024-02-13",
-      "versionDescription": "• Updated YouTube to 19.06.2\n • Updated uYou to 3.0.2\n • Fixed Slide to Seek localization\n • Updated all Submodules"
+      "versionDate": "2024-02-20",
+      "versionDescription": "• Updated YouTube to 19.06.2\n • Updated uYou to 3.0.3\n • Added new button in Navigation Bar (uYouPlus Button)\n • Re-enabled uYouLocalization!\n • Updated all Submodules"
     }
   ],
   "identifier": "com.uyouplusextra.source",
