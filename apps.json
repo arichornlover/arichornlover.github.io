@@ -17,7 +17,7 @@
       "version": "20.05.4",
       "versionDate": "2025-6-11",
       "versionDescription": "Current YouTube IPA: \"20.05.4\"\nCurrent uYouEnhanced Version: \"3.0.4\"\n\nRELEASE 20.05.4 - 3.0.4: (2025-06-11)\n\n• Updated YouTube to v20.05.4\n• Updated options: LowContrastMode and YTAppVersionSpoofer\n• Reminder: the App Version Spoofer now supports up to v19.23.3 but I now recently removed older versions like 17.33.2-18.34.5 due to them no longer working.\n• Updated submodules",
-      "downloadURL": "https://tinyurl.com/5adbp43m",
+      "downloadURL": "https://tinyurl.com/3uyktrkx",
       "localizedDescription": "uYou is the best tweak for the YouTube app. uYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. Additional features include skipping sponsorships in videos, more PiP options, unlocking higher resolutions, disabling overlays, removing upsell alerts, dimming the UI, enabling the miniplayer, preventing notch issues, configuring A/B settings, and adding a timestamp button.",
       "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
       "tintColor": "e81e8a",
