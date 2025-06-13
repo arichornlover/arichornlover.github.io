@@ -14,10 +14,10 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "LillieH1000, zachary7829 & arichornlover",
       "subtitle": "Supercharged with a ton of tweaks for the YouTube app.",
-      "version": "19.23.3",
-      "versionDate": "2024-06-11",
-      "versionDescription": "Current YouTube IPA: \"19.23.3\"\n\nRELEASE 19.23.3 - 4.2.8: (2024-06-11)\n\n• YouTubeRebornPlus has YouTube Reborn v4.2.8 integrated.",
-      "downloadURL": "https://tinyurl.com/262fbj2x",
+      "version": "20.05.4",
+      "versionDate": "2025-06-12",
+      "versionDescription": "Current YouTube IPA: \"19.23.3\"\n\nRELEASE 20.05.4 - 4.2.9: (2024-06-11)\n\n• YouTubeRebornPlus has YouTube Reborn v4.2.9 integrated.",
+      "downloadURL": "https://tinyurl.com/555uwrym",
       "localizedDescription": "YouTube Reborn is the best tweak for customization and video downloading in the YouTube app. Additional features include enhanced PiP options, unlocking higher resolutions, disabling overlays, removing upsell alerts, and more.",
       "iconURL": "https://raw.githubusercontent.com/arichornlover/YouTube-Reborn-v5/main/layout/Library/Application%20Support/YouTubeReborn.bundle/ytrebornbuttonblack.png",
       "tintColor": "0f0f0f",
@@ -61,10 +61,10 @@
       },
       "versions": [
         {
-          "version": "19.23.3",
-          "date": "2024-06-11",
-          "localizedDescription": "Current YouTube IPA: \"19.23.3\"\n\nRELEASE 19.23.3 - 4.2.8: (2024-06-11)\n\n• YouTubeRebornPlus has YouTube Reborn v4.2.8 integrated\n• For changelog and more details, visit https://github.com/arichornlover/YouTubeRebornPlus/releases/tag/v19.23.3-4.2.8",
-          "downloadURL": "https://tinyurl.com/262fbj2x",
+          "version": "20.05.4",
+          "date": "2025-06-12",
+          "localizedDescription": "Current YouTube IPA: \"20.05.4\"\n\nRELEASE 20.05.4 - 4.2.9: (2025-06-12)\n\n• YouTubeRebornPlus has YouTube Reborn v4.2.9 integrated\n• For changelog and more details, visit https://github.com/arichornlover/YouTubeRebornPlus/releases/tag/v20.05.4-4.2.9",
+          "downloadURL": "https://tinyurl.com/555uwrym",
           "size": 118141199
         }
       ]
