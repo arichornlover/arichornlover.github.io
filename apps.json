@@ -4,7 +4,7 @@
   "website": "https://github.com/arichornlover/uYouEnhanced",
   "subtitle": "uYouEnhanced official Altstore source.",
   "description": "This is the official Altstore source for uYouEnhanced.\n\nuYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. It offers a superior YouTube experience with features like skipping sponsorships, more PiP options, unlocking higher resolutions, and much more.\n\nFor full details on what's included, check the GitHub repository:\n\nhttps://github.com/arichornlover/uYouEnhanced",
-  "tintColor": "e81e8a",
+  "tintColor": "#e81e8a",
   "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
   "headerURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
   "apps": [
@@ -14,16 +14,16 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "arichornlover & Various Contributors",
       "subtitle": "uYouPlus with even more features!",
-      "version": "20.44.2",
-      "versionDate": "2026-02-24",
-      "versionDescription": "Current YouTube IPA: \"20.44.2\"\nCurrent uYouEnhanced Version: \"3.0.4\"\n\nRELEASE 20.44.2 - 3.0.4: (2026-02-24)\n\n• Updated for YouTube 20.44.2\n• Updated App Version Spoofer to support versions 20.34.2–21.08.3\n• Marked older spoofer versions 19.01.1–19.20.2 as Deprecated ⚠️\n• LowContrastMode updated to 1.8.0 with reorganized code and iOS 16+ focus\n• Added new tweak: YTHidePlayerButtons 1.0.0 (improved button hiding)\n• Added new tweak: YTweaks by fosterbarnes\n• Rewritten AppIconsOptionsController functionality\n• Updated Notifications Tab icon customization (added Bold Outline 2024+ style; default is now 2025+ style)\n• Updated submodules\n• Removed options: Disable Modern Buttons & Disable Modern A/B Flags",
-      "downloadURL": "https://tinyurl.com/mry6h73k",
+      "version": "21.14.4",
+      "versionDate": "2026-08-22",
+      "versionDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Downloads fixed for modern YouTube (fixes infinite \"Downloading...\")\n• Fixed iSponsorBlock startup crash on 21.x\n• App Icons now actually work + fresh grid picker UI\n• Notifications Tab is now reorderable\n• iPad & landscape UI fixes across all custom menus\n• uYou rebranded to 3.0.5 (Unofficial build)",
+      "downloadURL": "https://tinyurl.com/4wck29a8",
       "localizedDescription": "uYou is the best tweak for the YouTube app. uYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. Additional features include skipping sponsorships in videos, more PiP options, unlocking higher resolutions, disabling overlays, removing upsell alerts, dimming the UI, enabling the miniplayer, preventing notch issues, configuring A/B settings, and adding a timestamp button.",
       "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
-      "tintColor": "e81e8a",
+      "tintColor": "#e81e8a",
       "category": "photo-video",
       "size": 118022104,
-      "screenshotURLs": [
+      "screenshots": [
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true",
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus2.jpeg?raw=true",
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus3.jpeg?raw=true",
@@ -60,11 +60,20 @@
       },
       "versions": [
         {
+          "version": "21.14.4",
+          "date": "2026-08-22T00:00:00-05:00",
+          "size": 118022104,
+          "downloadURL": "https://tinyurl.com/4wck29a8",
+          "minOSVersion": "16.0",
+          "localizedDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Downloads fixed for modern YouTube (fixes infinite \"Downloading...\")\n• Fixed iSponsorBlock startup crash on 21.x\n• App Icons now actually work + fresh grid picker UI\n• Notifications Tab is now reorderable\n• iPad & landscape UI fixes across all custom menus\n• uYou rebranded to 3.0.5 (Unofficial build)"
+        },
+        {
           "version": "20.44.2",
-          "date": "2026-02-24",
-          "localizedDescription": "Current YouTube IPA: \"20.44.2\"\nCurrent uYouEnhanced Version: \"3.0.4\"\n\nRELEASE 20.44.2 - 3.0.4: (2026-02-24)\n\n• Updated for YouTube 20.44.2\n• Updated App Version Spoofer to support versions 20.34.2–21.08.3\n• Marked older spoofer versions 19.01.1–19.20.2 as Deprecated ⚠️\n• LowContrastMode updated to 1.8.0 with reorganized code and iOS 16+ focus\n• Added new tweak: YTHidePlayerButtons 1.0.0\n• Added new tweak: YTweaks by fosterbarnes\n• Rewritten AppIconsOptionsController functionality\n• Updated Notifications Tab icon customization\n• Updated submodules\n• Removed options: Disable Modern Buttons & Disable Modern A/B Flags",
+          "date": "2026-02-24T00:00:00-06:00",
+          "size": 118022104,
           "downloadURL": "https://tinyurl.com/mry6h73k",
-          "size": 118022104
+          "minOSVersion": "16.0",
+          "localizedDescription": "Current YouTube IPA: \"20.44.2\"\nCurrent uYouEnhanced Version: \"3.0.4\"\n\nRELEASE 20.44.2 - 3.0.4: (2026-02-24)\n\n• Updated for YouTube 20.44.2\n• Updated App Version Spoofer to support versions 20.34.2–21.08.3\n• Marked older spoofer versions 19.01.1–19.20.2 as Deprecated ⚠️\n• LowContrastMode updated to 1.8.0 with reorganized code and iOS 16+ focus\n• Added new tweak: YTHidePlayerButtons 1.0.0 (improved button hiding)\n• Added new tweak: YTweaks by fosterbarnes\n• Rewritten AppIconsOptionsController functionality\n• Updated Notifications Tab icon customization\n• Updated submodules\n• Removed options: Disable Modern Buttons & Disable Modern A/B Flags"
         }
       ]
     }
