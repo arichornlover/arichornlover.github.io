@@ -3,10 +3,10 @@
   "identifier": "com.uyouplusextra.source",
   "website": "https://github.com/arichornlover/uYouEnhanced",
   "subtitle": "uYouEnhanced official Altstore source.",
-  "description": "This is the official Altstore source for uYouEnhanced.\n\nuYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. It offers a superior YouTube experience with features like skipping sponsorships, more PiP options, unlocking higher resolutions, and much more.\n\nFor full details on what's included, check the GitHub repository:\n\nhttps://github.com/arichornlover/uYouEnhanced",
+  "description": "This is the official Altstore source for uYouEnhanced.\n\nuYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. It offers a superior YouTube experience with extensive customization options.",
   "tintColor": "#e81e8a",
-  "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
-  "headerURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
+  "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
+  "headerURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
   "apps": [
     {
       "beta": false,
@@ -16,20 +16,20 @@
       "subtitle": "uYouPlus with even more features!",
       "version": "21.14.4",
       "versionDate": "2026-08-22",
-      "versionDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Downloads fixed for modern YouTube (fixes infinite \"Downloading...\")\n• Fixed iSponsorBlock startup crash on 21.x\n• App Icons now actually work + fresh grid picker UI\n• Notifications Tab is now reorderable\n• iPad & landscape UI fixes across all custom menus\n• uYou rebranded to 3.0.5 (Unofficial build)",
-      "downloadURL": "https://tinyurl.com/4wck29a8",
-      "localizedDescription": "uYou is the best tweak for the YouTube app. uYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. Additional features include skipping sponsorships in videos, more PiP options, unlocking higher resolutions, disabling overlays, removing upsell alerts, dimming the UI, enabling the miniplayer, preventing notch issues, configuring A/B settings, and adding a timestamp button.",
-      "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
+      "versionDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Download enhancements\n• Bug fixes and stability improvements",
+      "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
+      "localizedDescription": "uYou is the best tweak for the YouTube app. uYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. Additional features include customizable UI, enhanced video controls, and more.",
+      "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
       "tintColor": "#e81e8a",
       "category": "photo-video",
       "size": 118022104,
       "screenshots": [
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true",
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus2.jpeg?raw=true",
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus3.jpeg?raw=true",
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus4.jpeg?raw=true",
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
-        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
+        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus1.jpeg",
+        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus2.jpeg",
+        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus3.jpeg",
+        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus4.jpeg",
+        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus5.jpeg",
+        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus6.jpeg"
       ],
       "appPermissions": {
         "entitlements": [
@@ -63,9 +63,10 @@
           "version": "21.14.4",
           "date": "2026-08-22T00:00:00-05:00",
           "size": 118022104,
-          "downloadURL": "https://tinyurl.com/4wck29a8",
+          "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
           "minOSVersion": "16.0",
-          "localizedDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Downloads fixed for modern YouTube (fixes infinite \"Downloading...\")\n• Fixed iSponsorBlock startup crash on 21.x\n• App Icons now actually work + fresh grid picker UI\n• Notifications Tab is now reorderable\n• iPad & landscape UI fixes across all custom menus\n• uYou rebranded to 3.0.5 (Unofficial build)"
+          "releaseNotes": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Download enhancements\n• Bug fixes and stability improvements",
+          "localizedDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Download enhancements\n• Bug fixes and stability improvements"
         },
         {
           "version": "20.44.2",
@@ -73,7 +74,8 @@
           "size": 118022104,
           "downloadURL": "https://tinyurl.com/mry6h73k",
           "minOSVersion": "16.0",
-          "localizedDescription": "Current YouTube IPA: \"20.44.2\"\nCurrent uYouEnhanced Version: \"3.0.4\"\n\nRELEASE 20.44.2 - 3.0.4: (2026-02-24)\n\n• Updated for YouTube 20.44.2\n• Updated App Version Spoofer to support versions 20.34.2–21.08.3\n• Marked older spoofer versions 19.01.1–19.20.2 as Deprecated ⚠️\n• LowContrastMode updated to 1.8.0 with reorganized code and iOS 16+ focus\n• Added new tweak: YTHidePlayerButtons 1.0.0 (improved button hiding)\n• Added new tweak: YTweaks by fosterbarnes\n• Rewritten AppIconsOptionsController functionality\n• Updated Notifications Tab icon customization\n• Updated submodules\n• Removed options: Disable Modern Buttons & Disable Modern A/B Flags"
+          "releaseNotes": "Current YouTube IPA: \"20.44.2\"\nCurrent uYouEnhanced Version: \"3.0.4\"\n\nRELEASE 20.44.2 - 3.0.4: (2026-02-24)\n\n• Updated for YouTube 20.44.2\n• Updated App features\n• Bug fixes",
+          "localizedDescription": "Current YouTube IPA: \"20.44.2\"\nCurrent uYouEnhanced Version: \"3.0.4\"\n\nRELEASE 20.44.2 - 3.0.4: (2026-02-24)\n\n• Updated for YouTube 20.44.2\n• Updated App features\n• Bug fixes"
         }
       ]
     }
