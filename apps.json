@@ -19,17 +19,17 @@
       "versionDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Download enhancements\n• Bug fixes and stability improvements",
       "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
       "localizedDescription": "uYou is the best tweak for the YouTube app. uYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. Additional features include customizable UI, enhanced video controls, and more.",
-      "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
+      "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
       "tintColor": "#e81e8a",
       "category": "photo-video",
       "size": 118022104,
       "screenshots": [
-        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus1.jpeg",
-        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus2.jpeg",
-        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus3.jpeg",
-        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus4.jpeg",
-        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus5.jpeg",
-        "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/assets/screenshots/uyouplus6.jpeg"
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus2.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus3.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus4.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
+        "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
       ],
       "appPermissions": {
         "entitlements": [
