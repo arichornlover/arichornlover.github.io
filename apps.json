@@ -5,8 +5,8 @@
   "subtitle": "uYouEnhanced official Altstore source.",
   "description": "This is the official Altstore source for uYouEnhanced.\n\nuYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. It offers a superior YouTube experience with extensive customization options.",
   "tintColor": "#e81e8a",
-  "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
-  "headerURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
+  "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
+  "headerURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
   "apps": [
     {
       "beta": false,
