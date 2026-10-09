@@ -14,15 +14,15 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "arichornlover & Various Contributors",
       "subtitle": "uYouPlus with even more features!",
-      "version": "21.14.4",
-      "versionDate": "2026-08-22",
-      "versionDescription": "Current YouTube IPA: \"21.14.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.14.4 - 3.0.5: (2026-08-22)\n\n• Updated for YouTube 21.14.4\n• uYou Download enhancements\n• Bug fixes and stability improvements",
-      "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21144-305.ipa",
+      "version": "21.20.4",
+      "versionDate": "2026-10-09",
+      "versionDescription": "Current YouTube IPA: \"21.20.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.20.4 - 3.0.5: (2026-10-09)\n\n• Updated for YouTube 21.20.4\n• Reworked uYou downloads (now finish reliably)\n• Added uYouEnhanced Debug Logs\n• Restored BigYTMiniPlayer\n• Fixed 25 reported issues\n• Bug fixes and stability improvements",
+      "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21204-305.ipa",
       "localizedDescription": "uYou is the best tweak for the YouTube app. uYouEnhanced is a modified version of qnblackcat's uYouPlus & MiRO92's uYou with even more features. Additional features include customizable UI, enhanced video controls, and more.",
       "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/1314354bff6ef07aca60d7b9a77bd91a5f985ab4/Localizations/uYouPlus.bundle/AppIcons/AppIcon4.png",
       "tintColor": "#e81e8a",
       "category": "photo-video",
-      "size": 118022104,
+      "size": 154391978,
       "screenshots": [
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus1.jpeg?raw=true",
         "https://github.com/therealFoxster/AltSource/blob/master/assets/screenshots/uYouPlus/uyouplus2.jpeg?raw=true",
@@ -59,6 +59,15 @@
         }
       },
       "versions": [
+        {
+          "version": "21.20.4",
+          "date": "2026-10-09T00:00:00-05:00",
+          "size": 154391978,
+          "downloadURL": "https://archive.org/download/YouTubeRebornPlus_19.10.5-4.2.6/yt-uYE-21204-305.ipa",
+          "minOSVersion": "16.0",
+          "releaseNotes": "Current YouTube IPA: \"21.20.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.20.4 - 3.0.5: (2026-10-09)\n\n• Updated for YouTube 21.20.4\n• Reworked uYou downloads (now finish reliably)\n• Added uYouEnhanced Debug Logs\n• Restored BigYTMiniPlayer\n• Fixed 25 reported issues\n• Bug fixes and stability improvements",
+          "localizedDescription": "Current YouTube IPA: \"21.20.4\"\nCurrent uYou Version: \"3.0.5 (Unofficial)\"\n\nRELEASE 21.20.4 - 3.0.5: (2026-10-09)\n\n• Updated for YouTube 21.20.4\n• Reworked uYou downloads (now finish reliably)\n• Added uYouEnhanced Debug Logs\n• Restored BigYTMiniPlayer\n• Fixed 25 reported issues\n• Bug fixes and stability improvements"
+        },
         {
           "version": "21.14.4",
           "date": "2026-08-22T00:00:00-05:00",
